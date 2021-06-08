@@ -24,4 +24,4 @@ const addNumbers = (number, addingTimes) => {
 	console.timeEnd('JS');
 };
 
-addNumbers(3.14, 100000000);
+//addNumbers(3.14, 100000000);

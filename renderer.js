@@ -1,3 +1,4 @@
+
 window.addEventListener('DOMContentLoaded', () => {
     const replaceText = (selector, text) => {
       const element = document.getElementById(selector)
@@ -6,4 +7,4 @@ window.addEventListener('DOMContentLoaded', () => {
     
     replaceText(`chrome-version`, "unstableshite")
   })
-  
+

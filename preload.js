@@ -1,5 +1,12 @@
 // preload.js
 
+const { ipcRenderer, contextBridge } = require('electron');
+let foregroundServices = require('./foreground-services.js');
+
+contextBridge.exposeInMainWorld("api", {
+  services: foregroundServices
+});
+
 // All of the Node.js APIs are available in the preload process.
 // It has the same sandbox as a Chrome extension.
 window.addEventListener('DOMContentLoaded', () => {
