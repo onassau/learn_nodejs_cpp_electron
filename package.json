@@ -2,14 +2,18 @@
   "name": "test1",
   "version": "1.0.0",
   "description": "Test project to learn NodeJS and C++ backend",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "g": "^2.0.1",
     "node-gyp": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron": "^13.1.1"
   }
 }
